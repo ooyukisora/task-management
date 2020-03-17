@@ -54,5 +54,18 @@ Column|Type|Options|
 ### Association
 
 
+## tasks_managementsテーブル
+|Column|Type|Options|
+|------|----|-------|
+|tasks_id|intenger|
+|managements_id|integer|
+
+### Association
+
+## managemetsテーブル
+|Column|Type|Options|
+|------|----|-------|
+|text|text
+|task_id
 
 
