@@ -1,0 +1,116 @@
+*{
+  box-sizing: border-box;
+}
+
+.wrapper{
+  display: flex;
+}
+
+.header{
+  background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+  background-position: center center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  &__left{
+  width:200px;
+  &__box{
+  font-size: 50px;
+  text-align: center;
+  }
+  }
+  &___right{
+    background-color: green;
+    width: 300px; 
+  }
+
+}
+.body{
+background-color: #FAF0E6;
+width: 70%;
+height: 100vh;
+&__contents{
+  padding-top: 40px;
+  width: 100%;
+  overflow: scroll;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  .body__content1{
+    height:320px;
+    width: 280px;
+    border: solid 1px black;
+    margin: 20px 40px;
+    .task__progress{
+      width: 100%;
+      height:80%;
+      background-color: red;
+    }
+    .task__name{
+      width: 100%;
+      height: 20%;
+      text-align: center;
+      line-height: 70px;
+      font-size: 35px;
+    }
+    }
+    .body__content2{
+      height:320px;
+      width: 280px;
+      border: solid 1px black;
+      margin: 20px 40px;
+      }
+      .body__content3{
+        height:320px;
+        width: 280px;
+        border: solid 1px black;
+        margin: 20px 40px;
+      }
+      .body__content__new{
+        height:320px;
+        width: 280px;
+        border: solid 2px gray;
+        margin: 20px 40px;
+        .new-task{
+          font-size: 75px;
+          color: black;
+          padding: 120px 100px;
+          opacity: 0.3;
+          
+        }
+     }
+    }
+  }
+
+  .side{
+    width: calc(100% - 70%);
+    height: 100vh;
+    background-color: rgb(252, 236, 220);
+    clear: both;
+  &__bar{
+    display: flex;
+    padding-top: 75px;
+  .input__box{
+      width: 100%;
+  .input__box__search{
+        width: 75%;
+        height: 45px;
+      }
+    }
+    .submit-btn{
+      width: 100px;
+    }
+  }
+  &__bar__list{
+    width: 80%;
+    border: black solid 1px;
+    margin: auto;
+    margin-top: 40px;
+  
+  &__bar__list__name{
+    display: block;
+  }
+}
+  }
