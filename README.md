@@ -69,3 +69,34 @@ Column|Type|Options|
 |task_id
 
 
+NAME
+
+Senior citizens task to manage
+====
+
+Overview
+今アプリは高齢者向けのタスク管理アプリとなっています。
+
+## Description
+本日やらなければならないことをこのアプリを使って記述しておき、した時には印をつけることで、今日それを行ったのか確認することができる。
+
+## Demo
+
+## VS. 
+
+## Requirement
+
+## Usage
+
+## Install
+
+## Contribution
+
+## Licence
+
+[MIT](https://github.com/tcnksm/tool/blob/master/LICENCE)
+
+## Author
+
+[tcnksm](https://github.com/tcnksm)
+
